@@ -1,7 +1,20 @@
-#header{
+body{
+    
+    background-color: rgb(223, 211, 252);
+}
 
-    border-color: rgb(114, 1, 1);
-    border-radius: 32px;
-    margin: 10px, 10px, 10px, 10px;
-    padding: 10px, 10px, 10px, 10px;
+header{
+    background-color: rgb(170, 150, 218);
+    margin: 20px;
+    padding: 20px;
+}
+nav{
+    display: flex;
+    font-size: larger;
+    background-color: rgb(223, 211, 252);
+}
+
+.nav-element {
+    padding: 0 10px 0 10px;
+    display: inline-block;
 }
